@@ -43,6 +43,8 @@ body:
         - 🕸️ Web
         - 🧱 Minecraft (Globální na Všech Minecraft serverech)
         - 🛏️ BedWars
+    validations:
+        required: true
   - type: textarea
     id: additional
     attributes:
