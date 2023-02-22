@@ -1,0 +1,38 @@
+name: Nápad na vylepšení
+description: Nápad na vylepšení serveru, nebo přídání nových funkcionalit. 
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Děkujeme, že jste si vybrali čas pro vyplnění nahlášení!
+  - type: textarea
+    id: description
+    attributes:
+      label: Je Váš nápad spojen s chybou? Prosím popište ji.
+      description: "Čistý a jednoduchý popis toho, co chyba je. Např. Vždy mě frustruje, když [...]"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Popište řešení, které byste rádi uvítali."
+      description: Čistý a jednoduchý popis toho, co byste chtěli aby se stalo.
+    validations:
+      required: true
+  - type: checkboxes
+    id: platform
+    attributes:
+      label: Platforma
+      description: |
+        Platforma, nebo server kam vylepšení směřujete.
+      options:
+        - label: 🕸️ Web
+        - label: 🧱 Minecraft (Zaškrtněte pouze v případě, že je problém globální na Všech Minecraft serverech)
+        - label: 🛏️ BedWars
+  - type: textarea
+    id: additional
+    attributes:
+      label: Doplňující informace
+      description: Jakékoli další doplňující informace, které nám chcete sdělit.
