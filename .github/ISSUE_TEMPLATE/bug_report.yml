@@ -1,7 +1,7 @@
 name: Nahlášení Chyby
 description: Nahlašte jakoukoli chybu, na kterou jste narazili pro zlepšení Serveru.
-title: "[Bug]: "
-labels: ["bug"]
+title: "[Chyba]: "
+labels: ["chyba"]
 body:
   - type: markdown
     attributes:
